@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>09/01/2024 15:01:56</Date>
+	<AppInfo>
+		<Version>2024.8.10045</Version>
+		<Licensed>No</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.4780 (zh-CN)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 Professional 22H2 x64 - 10.0.19045.4780 (zh-CN)</Version>
+		<GUID>{DB5FA22A-BF3F-47A8-9C41-A02121D05C40}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>assembly.net '.NET assembly 缓存'</c>
+		<c>manifestbackup 'Manifest 备份 (WinSxS\Backup)'</c>
+		<c>microsoft.549981c3f5f10 'Cortana'</c>
+		<c>microsoft.advertising.xaml 'Microsoft Advertising SDK for XAML'</c>
+		<c>microsoft.bingweather 'MSN 天气'</c>
+		<c>microsoft.ecapp '目视控制'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.getstarted '提示(Win10 1607之前叫“入门”)'</c>
+		<c>microsoft.microsoft3dviewer '3D 查看器'</c>
+		<c>microsoft.microsoftofficehub 'Office'</c>
+		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.mixedreality.portal 'Mixed Reality Portal'</c>
+		<c>microsoft.mspaint '图画 3D'</c>
+		<c>microsoft.office.onenote 'OneNote'</c>
+		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.screensketch 'Snip &amp; Sketch'</c>
+		<c>microsoft.skypeapp 'Skype'</c>
+		<c>microsoft.storepurchaseapp 'Store Experience Host'</c>
+		<c>microsoft.wallet 'Microsoft Pay'</c>
+		<c>microsoft.windows.contentdeliverymanager '内容传递管理器'</c>
+		<c>microsoft.windows.narratorquickstart '讲述人'</c>
+		<c>microsoft.windows.oobenetworkcaptiveportal '强制网络门户流'</c>
+		<c>microsoft.windows.oobenetworkconnectionflow '网络连接流'</c>
+		<c>microsoft.windows.peopleexperiencehost 'Windows Shell Experience'</c>
+		<c>microsoft.windows.sechealthui 'Windows Defender'</c>
+		<c>microsoft.windowsalarms 'Windows Alarms &amp; Clock'</c>
+		<c>microsoft.windowscamera 'Windows Camera'</c>
+		<c>microsoft.windowscommunicationsapps 'Mail and Calendar'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsmaps 'Windows Maps'</c>
+		<c>microsoft.yourphone 'Your Phone'</c>
+		<c>systemrestore '系统恢复'</c>
+		<c>uev '用户体验虚拟化(UE-V)'</c>
+		<c>windowstogo 'Windows To Go'</c>
+		<c>winsat 'Windows 系统评估工具 (WinSAT)'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="false">
+		<ComponentFeatures>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="SMB1Protocol-Deprecation">true</Feature>
+		<Feature name="SMB1Protocol-Client">true</Feature>
+		<Feature name="SMB1Protocol">true</Feature>
+		<Feature name="SMB1Protocol-Server">true</Feature>
+		<Feature name="TelnetClient">true</Feature>
+	</Features>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+			<OptimizeAppX>false</OptimizeAppX>
+			<UpdateBootManager>false</UpdateBootManager>
+		</Options>
+	</Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers>
+		<Options>
+			<ReuseDriverCache>false</ReuseDriverCache>
+			<ShowHidden>false</ShowHidden>
+		</Options>
+	</Drivers>
+	<Unattended mode="0">
+		<AnswerFileLocationPanther>true</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>3</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="WindowsDefender">
+				<Tweak name="Windows Defender\DisableAntiSpyware">1</Tweak>
+				<Tweak name="Notifications\DisableNotifications">1</Tweak>
+				<Tweak name="Notifications\DisableEnhancedNotifications">1</Tweak>
+				<Tweak name="Features\TamperProtection">0</Tweak>
+				<Tweak name="State\AccountProtection_MicrosoftAccount_Disconnected">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsUpdate">
+				<Tweak name="WindowsUpdate\ExcludeWUDriversInQualityUpdate">1</Tweak>
+				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
+				<Tweak name="7971f918-a847-4430-9279-4a52d1efe18d\RegisterWithAU">0</Tweak>
+				<Tweak name="Settings\HideMCTLink">1</Tweak>
+				<Tweak name="DriverSearching\SearchOrderConfig">0</Tweak>
+				<Tweak name="Preferences\ModelDownloadAllowed">0</Tweak>
+				<Tweak name="Device Metadata\PreventDeviceMetadataFromNetwork">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="StartTweaks">
+				<Tweak name="Explorer\HideRecentlyAddedApps">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Explorer\HideSCAMeetNow">1</Tweak>
+				<Tweak name="Explorer\NoPinningStoreToTaskbar">0</Tweak>
+				<Tweak name="People\PeopleBand">0</Tweak>
+				<Tweak name="Search\SearchboxTaskbarMode">1</Tweak>
+				<Tweak name="NewStartPanel\{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}">0</Tweak>
+				<Tweak name="NewStartPanel\{20D04FE0-3AEA-1069-A2D8-08002B30309D}">0</Tweak>
+				<Tweak name="Explorer\DisableNotificationCenter">1</Tweak>
+				<Tweak name="PushNotifications\NoCloudApplicationNotification">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="ReserveManager\ShippedWithReserves">0</Tweak>
+				<Tweak name="GraphicsDrivers\HwSchMode">2</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Explorer">
+				<Tweak name="Explorer\ClearRecentDocsOnExit">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="Windows Search\AllowCortana">0</Tweak>
+				<Tweak name="Search\DeviceHistoryEnabled">0</Tweak>
+				<Tweak name="Search\HistoryViewEnabled">0</Tweak>
+				<Tweak name="Advanced\ShowCortanaButton">0</Tweak>
+				<Tweak name="WindowsCopilot\TurnOffWindowsCopilot">1</Tweak>
+				<Tweak name="CloudContent\DisableWindowsSpotlightFeatures">1</Tweak>
+				<Tweak name="Explorer\SmartScreenEnabled">Off</Tweak>
+				<Tweak name="Internet Explorer\PhishingFilter\Enabledv9">0</Tweak>
+				<Tweak name="MicrosoftEdge\PhishingFilter\Enabledv9">0</Tweak>
+				<Tweak name="FlipAhead\FPEnabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SystemPaneSuggestionsEnabled">0</Tweak>
+				<Tweak name="System\EnableActivityFeed">0</Tweak>
+				<Tweak name="Advanced\Start_TrackProgs">0</Tweak>
+				<Tweak name="System\AllowLocation">0</Tweak>
+				<Tweak name="System\AllowExperimentation">0</Tweak>
+				<Tweak name="AdvertisingInfo\Enabled">0</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">0</Tweak>
+				<Tweak name="Rules\NumberOfSIUFInPeriod">0</Tweak>
+				<Tweak name="Privacy\TailoredExperiencesWithDiagnosticDataEnabled">0</Tweak>
+				<Tweak name="TIPC\Enabled">0</Tweak>
+				<Tweak name="Client\OptInOrOutPreference">0</Tweak>
+				<Tweak name="ContentDeliveryManager\SubscribedContent-338393Enabled">0</Tweak>
+				<Tweak name="AppHost\EnableWebContentEvaluation">0</Tweak>
+				<Tweak name="Windows Search\AllowCloudSearch">0</Tweak>
+				<Tweak name="Search\BingSearchEnabled">0</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="AppCompat\DisableInventory">1</Tweak>
+				<Tweak name="TrainedDataStore\HarvestContacts">0</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitTextCollection">1</Tweak>
+				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
+				<Tweak name="CloudContent\DisableWindowsConsumerFeatures">1</Tweak>
+				<Tweak name="AppSettings\Skype-UserConsentAccepted">0</Tweak>
+				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatEsd</Task>
+		</ImageTasks>
+		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>NTLite</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+	</ApplyOptions>
+	<Execution BeforeLogonMode="0">
+		<Remove></Remove>
+		<Change></Change>
+		<Add></Add>
+	</Execution>
+	<Registry></Registry>
+</Preset>
