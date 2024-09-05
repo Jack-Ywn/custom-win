@@ -5,7 +5,7 @@
 		<Version>2024.8.10045</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.4780 (zh-CN)</Host>
+		<Host>Windows 10 Professional 23H2 x64 - 10.0.19045.4780 (zh-CN)</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 23H2 x64 - 10.0.22631.4037 (zh-CN)</Version>
