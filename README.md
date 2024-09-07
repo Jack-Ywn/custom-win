@@ -8,16 +8,20 @@
 
 ```shell
 #文件名称
-Win10_22H2_10.0.19045.4780_JackYwn.wim
+Win10_22H2_19045.4780_JackYwn.wim
 
 #MD5
-4c4b395f053967ab9729f4e4a9d8b4b6 
+7330ec3401666b111526d3abdea9fb44
 ```
 
 - `Windows 11 专业版`
 
 ```shell
-待更新......
+#文件名称
+Win11_23H2_22631.4037_JackYwn.wim
+
+#MD5
+0986512cce156885abcaf17184c75d50 
 ```
 
 
@@ -107,9 +111,25 @@ IE阻止首次运行向导
 微软拼音默认为英文输入
 ```
 
-- 镜像展示
+- Windows10镜像展示
 
-![f800357871f398c3d35e8d4081f3a09](http://pic.swireb.cn/images/f800357871f398c3d35e8d4081f3a09.png)
+![image-20240906220454712](http://pic.swireb.cn/images/image-20240906220454712.png)
+
+![image-20240906220554019](http://pic.swireb.cn/images/image-20240906220554019.png)
+
+![image-20240906220640460](http://pic.swireb.cn/images/image-20240906220640460.png)
+
+![image-20240906220850689](http://pic.swireb.cn/images/image-20240906220850689.png)
+
+- Windows11镜像展示
+
+![image-20240906230614232](http://pic.swireb.cn/images/image-20240906230614232.png)
+
+![image-20240906230721231](http://pic.swireb.cn/images/image-20240906230721231.png)
+
+![image-20240906230804402](http://pic.swireb.cn/images/image-20240906230804402.png)
+
+![image-20240906230923001](http://pic.swireb.cn/images/image-20240906230923001.png)
 
 
 
@@ -200,4 +220,3 @@ Telnet客户端启用
 禁用了Skype用户协议
 拒绝隐私政策
 ```
-
